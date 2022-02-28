@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="https://cdn.tailwindcss.com"></script>
+ 
+ <script src="https://kit.fontawesome.com/d9510c6179.js" crossorigin="anonymous"></script>
+  <title>Movie App</title>
+</head>
+
+
+<body class="w-[100vw] h-[140vh bg-[url('bg.png')] "> 
+
+<div class="nav w-[100vw] h-[3rem]">
+ <div class="float-left text-white m-2 cursor-pointer"><i class="fa-solid fa-user"></i> Chill Will</div>
+ <div class="float-right text-white mr-4 ">
+        <div class="hamburger inline-block pl-2 mt-2 cursor-pointer">
+      
+          <div class="h-0.5 w-6 my-1 bg-white"></div>
+          <div class="h-0.5 w-6 my-1 bg-white"></div>
+          <div class="h-0.5 w-6 my-1 bg-white"></div>
+        </div>
+ </div>
+ 
+</div>
+<!--nav ends -->
+
+
+<div class="flex flex-col mt-[1rem] justify-center items-center">
+  <input class="outline-none rounded-full border border-pink-600 md:w-[30rem] lg:w[30rem] xl:w-[30rem] 2xl:w-[40rem]" type="text" placeholder=" &#x1F50E" >
+  <button class="bg-white text-black mt-2 px-4 py-0 font-bold text-sm rounded-lg cursor-pointer border border-pink-600" type="submit">Search</button>
+</div>
+<script src="index.js"></script>
+
+<!--search bar ends-->
+
+<div class="toprated mt-8">
+  <button class="text-white border border-pink-600 rounded-full py-1 px-4 font-bold text-sm cursor-pointer bg-pink-600">Top Rated</button>
+  </div>
+  
+  
+ <div class="playerbox border-2 border-pink-600 mx-[2rem] my-[3rem] h-[10rem] md:h-[30rem]">
+   <iframe class="w-[18rem] md:h-[30rem] md:p-2 md:w-[57rem]" src="https://www.youtube.com/embed/5_cs-vkQ4l0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" ></iframe>
+   <p class="pt-2 text-[#7CFC00]">9.5  <i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star-half-stroke"></i></p>
+   
+ </div>
+ 
+  <div class="playerbox border-2 border-pink-600 mx-[2rem] my-[3rem] h-[10rem] md:h-[30rem]">
+   <iframe class="w-[18rem] md:h-[30rem] md:p-2 md:w-[57rem]" src="https://www.youtube.com/embed/63F9Pv4k4wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p class="pt-2 text-[#7CFC00]">8.5  <i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star-half-stroke"></i><i class="text-[#FFD700] fa-regular fa-star"></i></p>
+   
+ </div>
+ 
+  <div class="playerbox border-2 border-pink-600 mx-[2rem] my-[3rem] h-[10rem] md:h-[30rem]">
+   <iframe class="w-[18rem] md:h-[30rem] md:p-2 md:w-[57rem]" src="https://www.youtube.com/embed/-6PyHnBjXoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p class="pt-2 text-[#7CFC00]">9  <i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-regular fa-star"></i></p>
+   
+ </div>
+ 
+  <div class="playerbox border-2 border-pink-600 mx-[2rem] m-[3rem] h-[10rem] md:h-[30rem]">
+   <iframe class="w-[18rem] md:h-[30rem] md:p-2 md:w-[57rem]" src="https://www.youtube.com/embed/pKctjlxbFDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p class="pt-2 text-[#7CFC00]">9.5  <i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star"></i><i class="text-[#FFD700] fa-solid fa-star-half-stroke"></i></p>
+   
+ </div>
+ 
+ 
+ 
+<!--1st page ends-->
+<div class="flex flex-col justify-center items-center m-2" >
+<a href="section.html"><p class="text-pink-600 font-bold ">More</p></a>
+ <i class="text-pink-600 fa-solid fa-chevron-down"></i>
+  </div>
+  
+  
+   <hr class="text-white h-2 mt-4">
+   <div class="footer text-white m-2 inline">
+     <p>Follow us on &nbsp; &nbsp;<i class="fa-solid fa-chevron-down"></i></p>
+     <div class="space-x-4">
+       <a target="_blank" href="https://www.facebook.com/jackwonder.nitesh"><i class="fa-brands fa-facebook"></i></a>
+       <a target="_blank" href="https://instagram.com/itsnbbhumi___"><i class="fa-brands fa-instagram"></i></a>
+       <a target="_blank" href="https://www.linkedin.com/in/nitesh-bhaiya-2a66b4202"><i class="fa-brands fa-linkedin"></i></a>
+       <a target="_blank" href="https://twitter.com/NiteshBhaiya9"><i class="fa-brands fa-twitter"></i></a>
+     </div>
+   </div>
+   <div class="flex justify-around">
+   <img class="w-[40%]" src="logo.png">
+   <img class="w-[40%]" src="logo2.png">
+   </div>
+  <p class="text-black bg-white items-center text-center mt-8 rounded-md">© 2022 Chill will</p>
+</body>
+
+</html>
